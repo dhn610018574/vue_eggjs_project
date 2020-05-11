@@ -1,0 +1,18 @@
+.rd-tabs {
+    position: relative;
+    height: inherit;
+    .el-tabs__item{color:#999;
+      &.is-active{color:#53687C;}
+    }
+    .el-tabs__header {
+        margin: 0 0 10px;
+    }
+    .el-tabs__content {
+        position: absolute;
+        top: 55px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        min-height: 1500px;
+    }
+  }
